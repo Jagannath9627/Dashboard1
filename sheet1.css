@@ -1,0 +1,194 @@
+
+  
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+/*for the content body */
+
+.content{
+    background-image: url(D:/images/newimag.jpg);
+    height: 850px;
+    width: 1060px;
+    background-repeat: no-repeat;
+    margin: 20px;
+    
+    text-align: auto;
+    border: 1px solid;
+    border-radius: 10px 10px 0px 0px;
+    
+}
+
+.back h1{
+    margin-top: 250px;
+    margin-left: 10px;
+    background-color: rgb(56, 51, 51);
+    border-radius: 10px;
+    padding: 10px;
+    color: red;
+
+}
+.back span{
+    font-size: 18px;
+    color: white;
+
+}
+
+
+.container{
+    display: flex;
+    background: rgb(226, 226, 226);
+
+}
+.dash{
+    margin-top: 60px;
+
+}
+.dash h1{
+    margin-left: 13px;
+}
+.menu{
+    background-color: white;
+    margin-top: 60px;
+    padding: 20px;
+    margin-left: 20px;
+    
+
+}.menu ul li{
+    list-style-type: none;
+    padding-top: 10px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+.menu ul li a{
+    text-decoration: none;
+    margin-bottom: 15px;
+    color: black;
+
+}
+.menu ul li a:hover{
+    background: red;
+    border-radius: 10px;
+    padding: 10px ;
+    transition: 0.3s;
+    transform: scale(1.3s);
+}
+
+.menu p{
+    /* padding-right: 100px; */
+    background: rgb(252, 205, 205);
+    margin-bottom: 20px;
+    padding: 10px 100px 10px 10px;
+    border-radius: 10px;
+    
+}
+.menu p span{
+    color: rgb(209, 53, 53);
+}
+.down{
+    display: flex;
+    text-align: center;
+    flex: 1;
+    margin-left: 300px;
+    
+}
+.achieve{
+    margin-top: 100px;
+}
+.reward{
+    margin-left: 500px;
+    margin-top: 50px;
+}
+.reward p{
+    padding: 10px;
+}
+.reward p span{
+    color: red;
+    font-weight: bold;
+}
+button{
+    background: rgb(165, 7, 7);
+    padding: 5px 16px 5px 16px;
+    color: white;
+    border-radius: 5px;
+}
+button a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+p{
+    padding-left: 100px;
+}
+nav ul li a .fa{
+    font-size: 20px;
+}
+
+
+/*For making responsible website*/
+@media(max-width : 700px)
+{
+    .container{
+        width: 730px;
+        background: rgb(226, 226, 226); 
+
+      }
+      .content{
+        background-image: url(D:/images/newimag.jpg);
+        width: 700px;
+        height: 900px;
+
+      }
+      .menu ul li{
+        list-style-type: none;
+        padding-top: 10px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 20px;
+      
+    }
+      .down{
+        display: inline-block;
+        text-align: center;
+        flex: 1;
+        margin-left: 30px;
+        
+    }
+    .menu{
+        display: none;
+    }
+      .back h1{
+        margin-top: 180px;
+        margin-left: 10px;
+        background-color: rgb(56, 51, 51);
+        border-radius: 10px;
+        padding: 10px;
+        color: red;
+        font-size: 18px;
+        
+    
+    }
+    .back h1 span{
+        font-size: 12px ;
+    }
+    .achieve{
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+    .reward{
+        margin-left: 50px;
+        margin-top:50px;
+    }
+    button{
+        background: rgb(165, 7, 7);
+        padding: 5px 16px 5px 16px;
+        color: white;
+        border-radius: 5px;
+        margin-bottom: 15px;
+    }
+}
